@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Repo Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+   
+</head>
+<body>
+    <h1 id="text">Github Repository Analyzer</h1>
+    <h2 id="text">Enter Repository URL and get information such as stars, forks, programming languages, and open issues</h2>
+
+    <form id="form">
+        <label for="repo-url" id="text">Repository URL:</label>
+        <br>
+        <input type="text" id="repo-url" name="repo-url" placeholder="username/repository">
+        <br>
+        <button type="submit">Analyze</button>
+    </form>
+    <div id="results"></div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
