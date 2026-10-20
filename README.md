@@ -42,10 +42,8 @@ Github-Repo-Analyzer/
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/V-920/Github-Repo-Analyzer
 ```
-
-Replace `YOUR_REPOSITORY_URL` with the URL of your GitHub repository.
 
 ### 2. Navigate to the project directory
 
